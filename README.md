@@ -1,5 +1,8 @@
 Prerequisite
 1. Already installed MySQL with database named cdatabase in it.
+
+Installation
+--------------
 2. Python 3 installed
 
 1. Create python virtual environment
