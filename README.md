@@ -1,4 +1,5 @@
 Prerequisite
+--------------
 1. Already installed MySQL with database named cdatabase in it.
 
 Installation
