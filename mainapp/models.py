@@ -10,7 +10,7 @@ class Article(db.Model):
   category = db.Column(db.String(128))
   created_date = db.Column(db.DateTime,default=datetime.utcnow)
   updated_date = db.Column(db.DateTime,default=datetime.utcnow)
-  status = db.Column(db.String(128))
+  status = db.Column(db.Enum('publish','draft','thrash'),nullable=False,server_default="draft")
 
   def __repr__(self):
     return '< Article {} >'.format(self.title)
