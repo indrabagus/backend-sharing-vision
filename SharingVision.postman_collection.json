@@ -12,7 +12,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\": \"IP Datagrams\",\r\n    \"content\": \"The IP layer provides a connectionless and unreliable delivery system. It considers each datagram independently of the others. Any association between datagrams must be supplied by the higher layers.\",\r\n    \"category\":\"Networking\",\r\n    \"status\":\"New\"\r\n}",
+					"raw": "{\r\n    \"title\": \"IP Datagrams\",\r\n    \"content\": \"The IP layer provides a connectionless and unreliable delivery system. It considers each datagram independently of the others. Any association between datagrams must be supplied by the higher layers.\",\r\n    \"category\":\"Networking\",\r\n    \"status\":\"draft\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -43,7 +43,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/article/4",
+					"raw": "http://127.0.0.1:5000/article/1",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -54,7 +54,7 @@
 					"port": "5000",
 					"path": [
 						"article",
-						"4"
+						"1"
 					]
 				}
 			},
@@ -67,7 +67,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\": \"Looking into scope\",\r\n    \"content\": \"When a variable is declared, it comes into scope, or to put it another way, the variable becomes visible.\",\r\n    \"category\":\"Programming\",\r\n    \"status\":\"New\"\r\n}",
+					"raw": "{\r\n    \"title\": \"Looking into scope\",\r\n    \"content\": \"When a variable is declared, it comes into scope, or to put it another way, the variable becomes visible.\",\r\n    \"category\":\"Programming\",\r\n    \"status\":\"draft\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -99,7 +99,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\": \"Connection Oriented\",\r\n    \"content\": \"In a connectionless system, messages are sent independent of each other. Ordinary mail is the analogy.\",\r\n    \"category\":\"Networking\",\r\n    \"status\":\"Update\"\r\n}",
+					"raw": "{\r\n    \"title\": \"Connection Oriented\",\r\n    \"content\": \"In a connectionless system, messages are sent independent of each other. Ordinary mail is the analogy.\",\r\n    \"category\":\"Networking\",\r\n    \"status\":\"publish\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -154,7 +154,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\": \"True or false\",\r\n    \"content\": \"True and false are Boolean values, so named after 19th century mathematician George Boole. \",\r\n    \"category\":\"Programming\",\r\n    \"status\":\"New\"\r\n}",
+					"raw": "{\r\n    \"title\": \"True or false\",\r\n    \"content\": \"True and false are Boolean values, so named after 19th century mathematician George Boole. \",\r\n    \"category\":\"Programming\",\r\n    \"status\":\"publish\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -185,7 +185,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/article/2/2",
+					"raw": "http://127.0.0.1:5000/article/2/1",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -197,7 +197,7 @@
 					"path": [
 						"article",
 						"2",
-						"2"
+						"1"
 					]
 				}
 			},
